@@ -7,7 +7,7 @@ FactoryGirl.define do
     service_date "2011-12-15"
     subtotal_act 0.00
     subtotal_chg 0.00
-    association :service
-    association :ticket
+    service
+    ticket
   end
 end

@@ -4,6 +4,6 @@ FactoryGirl.define do
   factory :job do
     name "MyString"
     description "MyText"
-    well_id 1
+    well
   end
 end

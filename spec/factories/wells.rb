@@ -4,6 +4,8 @@ FactoryGirl.define do
   factory :well do
     name "well name"
     number "#21312"
-    association :field
+    area 'Some area'
+    field
+    customer
   end
 end
